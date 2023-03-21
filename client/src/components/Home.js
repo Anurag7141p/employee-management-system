@@ -45,12 +45,12 @@ function Home()
     return (
         <>
 
-            <h2 className='text-center'>List of Employees</h2>
+            <h2 className='text-center mt-4'>List of Employees</h2>
             <p className='p-3'>Employee managements is a practice that helps a manager improve employee productivity and satisfaction to help an organisation reach its goals. Human resources (HR) professionals often use an employee management system (EMS), including recruitment, offboarding and performance management. Using a dedicated EMS can help an HR manager streamline the hiring process and improve workplace efficiency. In this article, we discuss what an employee management systems is, outline its benefits and types and list some examples of employee management software tools.</p>
             
             <Link to={'/add'}>
             
-            <Button variant="info" style={{ float: 'right', marginRight: '50px', width: '90px', height: '50px' }}>Add <FaUserPlus /></Button> <br /><br /><br />
+            <Button variant="info" style={{ float: 'right', marginRight: '50px', width: '97px', height: '50px',borderRadius:'8px' }}>Add <FaUserPlus /></Button> <br /><br /><br />
             </Link>
             
             <Table striped bordered hover style={{ width: '1200px', marginLeft: '100px' }}>
@@ -78,7 +78,7 @@ function Home()
                                     <td>
 
                                         <Link to={'/edit/'+item.id}>
-                                        <Button variant="success" onClick={()=>handleEdit(item.id,item.empName,item.age,item.designation,item.salary)}><FaUserEdit /> </Button>{' '}
+                                        <Button variant="success" onClick={()=>handleEdit(item.id,item.empName,item.age,item.designation,item.salary)}><FaUserEdit/> </Button>{' '}
                                         </Link>
 
                                         <Button onClick={()=>handleDelete(item.id)} variant="danger" ><FaTrashAlt /></Button>

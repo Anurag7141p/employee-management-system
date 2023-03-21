@@ -53,7 +53,7 @@ function Add() {
   return (
     <>
 
-      <h2 className='text-center'>Add Employees</h2>
+      <h2 className='text-center mt-3'>Add Employees</h2>
       <p className='p-3'>Employee management is a practice that helps a manager improve employee productivity and satisfaction to help an organisation reach its goals. Human resources (HR) professionals often use an employee management system (EMS), including recruitment, offboarding and performance management. Using a dedicated EMS can help an HR manager streamline the hiring process and improve workplace efficiency. In this article, we discuss what an employee management systems is, outline its benefits and types and list some examples of employee management software tools.</p>
 
 
